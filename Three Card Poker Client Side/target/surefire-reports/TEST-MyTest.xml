@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="MyTest" time="0.031" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="18"/>
+    <property name="maven.user.extensions" value="C:\Users\bob2n/.m2/extensions.xml"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\bob2n\Downloads\CS 342 Project 3 Client Side\CS 342 Project 3 Client Side\target\test-classes;C:\Users\bob2n\Downloads\CS 342 Project 3 Client Side\CS 342 Project 3 Client Side\target\classes;C:\Users\bob2n\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.1\junit-jupiter-5.9.1.jar;C:\Users\bob2n\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.1\junit-jupiter-api-5.9.1.jar;C:\Users\bob2n\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\bob2n\.m2\repository\org\junit\platform\junit-platform-commons\1.9.1\junit-platform-commons-1.9.1.jar;C:\Users\bob2n\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\bob2n\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.1\junit-jupiter-params-5.9.1.jar;C:\Users\bob2n\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.1\junit-jupiter-engine-5.9.1.jar;C:\Users\bob2n\.m2\repository\org\junit\platform\junit-platform-engine\1.9.1\junit-platform-engine-1.9.1.jar;C:\Users\bob2n\.m2\repository\org\openjfx\javafx-controls\19.0.2.1\javafx-controls-19.0.2.1.jar;C:\Users\bob2n\.m2\repository\org\openjfx\javafx-controls\19.0.2.1\javafx-controls-19.0.2.1-win.jar;C:\Users\bob2n\.m2\repository\org\openjfx\javafx-graphics\19.0.2.1\javafx-graphics-19.0.2.1.jar;C:\Users\bob2n\.m2\repository\org\openjfx\javafx-graphics\19.0.2.1\javafx-graphics-19.0.2.1-win.jar;C:\Users\bob2n\.m2\repository\org\openjfx\javafx-base\19.0.2.1\javafx-base-19.0.2.1.jar;C:\Users\bob2n\.m2\repository\org\openjfx\javafx-base\19.0.2.1\javafx-base-19.0.2.1-win.jar;C:\Users\bob2n\.m2\repository\org\openjfx\javafx-fxml\19.0.2.1\javafx-fxml-19.0.2.1.jar;C:\Users\bob2n\.m2\repository\org\openjfx\javafx-fxml\19.0.2.1\javafx-fxml-19.0.2.1-win.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="maven.user.toolchains" value="C:\Users\bob2n/.m2/toolchains.xml"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="America/Chicago"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="18"/>
+    <property name="maven.repo.central" value="https://repo.maven.apache.org/maven2"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-18.0.2.101-hotspot\bin"/>
+    <property name="sun.java.command" value="C:\Users\bob2n\AppData\Local\Temp\surefire15981251555976459136\surefirebooter624526664067900086.jar C:\Users\bob2n\AppData\Local\Temp\surefire15981251555976459136 2024-12-06T22-51-58_312-jvmRun1 surefire17520634840330221406tmp surefire_04797368780489357957tmp"/>
+    <property name="maven.project.settings" value="${session.rootDirectory}/.mvn/settings.xml"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\bob2n\Downloads\CS 342 Project 3 Client Side\CS 342 Project 3 Client Side\target\test-classes;C:\Users\bob2n\Downloads\CS 342 Project 3 Client Side\CS 342 Project 3 Client Side\target\classes;C:\Users\bob2n\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.1\junit-jupiter-5.9.1.jar;C:\Users\bob2n\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.1\junit-jupiter-api-5.9.1.jar;C:\Users\bob2n\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\bob2n\.m2\repository\org\junit\platform\junit-platform-commons\1.9.1\junit-platform-commons-1.9.1.jar;C:\Users\bob2n\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\bob2n\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.1\junit-jupiter-params-5.9.1.jar;C:\Users\bob2n\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.1\junit-jupiter-engine-5.9.1.jar;C:\Users\bob2n\.m2\repository\org\junit\platform\junit-platform-engine\1.9.1\junit-platform-engine-1.9.1.jar;C:\Users\bob2n\.m2\repository\org\openjfx\javafx-controls\19.0.2.1\javafx-controls-19.0.2.1.jar;C:\Users\bob2n\.m2\repository\org\openjfx\javafx-controls\19.0.2.1\javafx-controls-19.0.2.1-win.jar;C:\Users\bob2n\.m2\repository\org\openjfx\javafx-graphics\19.0.2.1\javafx-graphics-19.0.2.1.jar;C:\Users\bob2n\.m2\repository\org\openjfx\javafx-graphics\19.0.2.1\javafx-graphics-19.0.2.1-win.jar;C:\Users\bob2n\.m2\repository\org\openjfx\javafx-base\19.0.2.1\javafx-base-19.0.2.1.jar;C:\Users\bob2n\.m2\repository\org\openjfx\javafx-base\19.0.2.1\javafx-base-19.0.2.1-win.jar;C:\Users\bob2n\.m2\repository\org\openjfx\javafx-fxml\19.0.2.1\javafx-fxml-19.0.2.1.jar;C:\Users\bob2n\.m2\repository\org\openjfx\javafx-fxml\19.0.2.1\javafx-fxml-19.0.2.1-win.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\bob2n"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-08-18"/>
+    <property name="java.home" value="C:\Program Files\Eclipse Adoptium\jdk-18.0.2.101-hotspot"/>
+    <property name="maven.user.conf" value="C:\Users\bob2n/.m2"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\bob2n\Downloads\CS 342 Project 3 Client Side\CS 342 Project 3 Client Side"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="maven.project.conf" value="${session.rootDirectory}/.mvn"/>
+    <property name="surefire.real.class.path" value="C:\Users\bob2n\AppData\Local\Temp\surefire15981251555976459136\surefirebooter624526664067900086.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="18.0.2.1+1"/>
+    <property name="user.name" value="bob2n"/>
+    <property name="maven.installation.conf" value="C:\Users\bob2n\Downloads\apache-maven-4.0.0-beta-4-bin\apache-maven-4.0.0-beta-4/conf"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="maven.installation.toolchains" value="C:\Users\bob2n\Downloads\apache-maven-4.0.0-beta-4-bin\apache-maven-4.0.0-beta-4/conf/toolchains.xml"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-18.0.2.1+1"/>
+    <property name="localRepository" value="C:\Users\bob2n\.m2\repository"/>
+    <property name="maven.project.extensions" value="${session.rootDirectory}/.mvn/extensions.xml"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\bob2n\AppData\Local\Temp\"/>
+    <property name="maven.installation.extensions" value="C:\Users\bob2n\Downloads\apache-maven-4.0.0-beta-4-bin\apache-maven-4.0.0-beta-4/conf/extensions.xml"/>
+    <property name="java.version" value="18.0.2.1"/>
+    <property name="user.dir" value="C:\Users\bob2n\Downloads\CS 342 Project 3 Client Side\CS 342 Project 3 Client Side"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-18.0.2.101-hotspot\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\bob2n\Downloads\apache-maven-4.0.0-beta-4-bin\apache-maven-4.0.0-beta-4\bin;C:\Program Files\Eclipse Adoptium\jdk-18.0.2.101-hotspot\bin;C:\Program Files\Eclipse Adoptium\jdk-17.0.5.8-hotspot\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Users\bob2n\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\bob2n\AppData\Local\Programs\Python\Python311\;C:\Users\bob2n\Downloads\ffmpeg-2024-07-24-git-896c22ef00-full_build\ffmpeg-2024-07-24-git-896c22ef00-full_build\bin;C:\Users\bob2n\AppData\Local\Microsoft\WindowsApps;C:\Users\bob2n\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\bob2n\AppData\Local\Microsoft\WinGet\Packages\Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\bob2n\Downloads\wget;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="18.0.2.1+1"/>
+    <property name="maven.installation.settings" value="C:\Users\bob2n\Downloads\apache-maven-4.0.0-beta-4-bin\apache-maven-4.0.0-beta-4/conf/settings.xml"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="maven.user.settings" value="C:\Users\bob2n/.m2/settings.xml"/>
+    <property name="java.class.version" value="62.0"/>
+  </properties>
+  <testcase name="test" classname="MyTest" time="0.025">
+    <failure message="Not yet implemented" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Not yet implemented
+	at MyTest.test(MyTest.java:14)
+</failure>
+  </testcase>
+</testsuite>
