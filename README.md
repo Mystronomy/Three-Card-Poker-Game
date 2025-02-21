@@ -26,7 +26,7 @@ Implementation Details
 
 Server
 
-- Runs on a separate thread and manages each client connection on individual threads.
+-- Runs on a separate thread and manages each client connection on individual threads.
 
 - Uses a deck of 52 cards, shuffled before each game.
 
@@ -42,7 +42,7 @@ JavaFX-based GUI with three main screens:
 
 - Welcome Screen – Connects to the server via IP and port.
 
-= Game Play Screen – Displays player and dealer cards, wager options, and game status updates.
+- Game Play Screen – Displays player and dealer cards, wager options, and game status updates.
 
 - Game Result Screen – Shows win/loss status and total earnings.
 
