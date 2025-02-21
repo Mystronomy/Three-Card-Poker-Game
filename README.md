@@ -24,37 +24,37 @@ Features
 
 Implementation Details
 
-Server
+- Server
 
--- Runs on a separate thread and manages each client connection on individual threads.
+  - Runs on a separate thread and manages each client connection on individual threads.
 
-- Uses a deck of 52 cards, shuffled before each game.
+  - Uses a deck of 52 cards, shuffled before each game.
 
-- Handles all game calculations, including wagers and payouts.
+  - Handles all game calculations, including wagers and payouts.
 
-- Provides a JavaFX GUI to monitor active clients, game states, and betting history.
+  - Provides a JavaFX GUI to monitor active clients, game states, and betting history.
 
-- Allows users to start and stop the server dynamically.
+  - Allows users to start and stop the server dynamically.
 
-- Client
+  - Client
 
-JavaFX-based GUI with three main screens:
+- JavaFX-based GUI with three main screens:
 
-- Welcome Screen – Connects to the server via IP and port.
+  - Welcome Screen – Connects to the server via IP and port.
 
-- Game Play Screen – Displays player and dealer cards, wager options, and game status updates.
+  - Game Play Screen – Displays player and dealer cards, wager options, and game status updates.
 
-- Game Result Screen – Shows win/loss status and total earnings.
+  - Game Result Screen – Shows win/loss status and total earnings.
 
-- Players can place Ante and Pair Plus wagers.
+  - Players can place Ante and Pair Plus wagers.
 
-- Supports "Fresh Start" (reset winnings) and "New Look" (GUI theme customization).
+  - Supports "Fresh Start" (reset winnings) and "New Look" (GUI theme customization).
 
 
-Networking
+- Networking
 
-- Built using Java Sockets for client-server communication.
+  - Built using Java Sockets for client-server communication.
 
-- Server assigns separate threads for each client connection.
+  - Server assigns separate threads for each client connection.
 
-- PokerInfo class (Serializable) is used for structured data exchange.
+  - PokerInfo class (Serializable) is used for structured data exchange.
