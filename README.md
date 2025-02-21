@@ -8,19 +8,19 @@ Features
 
 - JavaFX GUI – A fully interactive client and server interface with custom scenes and styling.
 
-= Java Sockets for Networking – Server handles multiple client connections, each on a separate thread.
+- Java Sockets for Networking – Server handles multiple client connections, each on a separate thread.
 
-= Serialized Data Transmission – PokerInfo class enables structured communication between server and clients.
+- Serialized Data Transmission – PokerInfo class enables structured communication between server and clients.
 
 - Game Logic on Server – All calculations, card shuffling, and win/loss determinations are processed on the server.
 
-= Client Betting System – Players can place bets, play, or fold through the GUI.
+- Client Betting System – Players can place bets, play, or fold through the GUI.
 
-= Dynamic Server Logging – Tracks active clients, game outcomes, and bet amounts in real-time.
+- Dynamic Server Logging – Tracks active clients, game outcomes, and bet amounts in real-time.
 
-= JUnit Testing – Unit tests included to verify game logic functionality.
+- JUnit Testing – Unit tests included to verify game logic functionality.
 
-= Customizable GUI Themes – Clients can change the game’s look and feel dynamically.
+- Customizable GUI Themes – Clients can change the game’s look and feel dynamically.
 
 mplementation Details
 
@@ -55,6 +55,6 @@ Networking
 
 - Built using Java Sockets for client-server communication.
 
-= Server assigns separate threads for each client connection.
+- Server assigns separate threads for each client connection.
 
-= PokerInfo class (Serializable) is used for structured data exchange.
+- PokerInfo class (Serializable) is used for structured data exchange.
