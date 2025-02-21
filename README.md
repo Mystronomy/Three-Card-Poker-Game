@@ -22,7 +22,7 @@ Features
 
 - Customizable GUI Themes – Clients can change the game’s look and feel dynamically.
 
-mplementation Details
+Implementation Details
 
 Server
 
